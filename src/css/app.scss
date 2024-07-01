@@ -1,0 +1,55 @@
+// app global css in SCSS form
+$text-darkblue: #023047 !important;
+$bg-darkblue: #023047 !important;
+
+$text-lightblue: #219ebc !important;
+$bg-lightblue: #219ebc !important;
+
+$text-normalblue: #8ecae6 !important;
+$bg-normalblue: #8ecae6 !important;
+
+$text-orange: #fb8500 !important;
+$bg-orange: #fb8500 !important;
+
+$text-yellow: #ffb703 !important;
+$bg-yellow: #ffb703 !important;
+
+.text-darkblue {
+  color: $text-darkblue;
+}
+
+.bg-darkblue {
+  background: $bg-darkblue;
+}
+
+.text-lightblue {
+  color: $text-lightblue;
+}
+
+.bg-lightblue {
+  background: $bg-lightblue;
+}
+
+.text-normalblue {
+  color: $text-normalblue;
+}
+
+.bg-normalblue {
+  background: $bg-normalblue;
+}
+
+.text-yellow {
+  color: $text-yellow;
+}
+
+.bg-yellow {
+  background: $bg-yellow;
+}
+
+.text-orange {
+  color: $text-orange;
+}
+
+.bg-orange {
+  background: $bg-orange;
+}

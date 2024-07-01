@@ -1,0 +1,61 @@
+{
+  "name": "bot-ts",
+  "version": "0.0.6",
+  "description": "eth bot in ts",
+  "productName": "eth bot ts",
+  "author": "Commercial",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@breejs/later": "^4.2.0",
+    "@quasar/extras": "^1.16.4",
+    "@types/breejs__later": "^4.1.5",
+    "@uniswap/router-sdk": "^1.9.0",
+    "@uniswap/sdk-core": "^4.2.0",
+    "@uniswap/universal-router-sdk": "^1.9.0",
+    "@uniswap/v2-sdk": "^4.3.0",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "@uniswap/v3-sdk": "^3.11.0",
+    "axios": "^1.2.1",
+    "core-js": "^3.6.5",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^4.2.0",
+    "ethers": "^6.11.1",
+    "i": "^0.3.7",
+    "npm": "^10.8.1",
+    "pinia": "^2.0.11",
+    "quasar": "^2.16.0",
+    "sturdy-websocket": "^0.2.1",
+    "vue": "^3.4.18",
+    "vue-router": "^4.0.12",
+    "web3": "^4.8.0"
+  },
+  "devDependencies": {
+    "@quasar/app-webpack": "^4.0.0-beta.13",
+    "@types/node": "^20.5.9",
+    "electron": "^31.0.1",
+    "electron-builder": "^24.3.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.2.2"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": "^24 || ^22 || ^20 || ^18",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
